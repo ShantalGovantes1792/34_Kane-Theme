@@ -1,0 +1,86 @@
+/*TABLE COLORES */
+table{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1%;
+}
+td{
+	height: 150px;
+	width: 180px;
+	margin-bottom: 2%;
+}
+.color-1{
+	background-color: #69D2E7;
+}
+.color-2{
+	background-color: #A7DBDB;
+}
+.color-3{
+	background-color: #E0E4CC;
+}
+.color-4{
+	background-color: #F38630;
+}
+.color-5{
+	background-color: #FA6900;
+}
+.color-6{
+	background-color: #E94C6F;
+}
+.color-7{
+	background-color: #542733;
+}
+.color-8{
+	background-color: #5A6A62;
+}
+.color-9{
+	background-color: #C6D5CD;
+}
+.color-10{
+	background-color: #FDF200;
+}
+.color-11{
+	background-color: #DB3340;
+}
+.color-12{
+	background-color: #E8B71A;
+}
+.color-13{
+	background-color: #F7EAC8;
+}
+.color-14{
+	background-color: #1FDA9A;
+}
+.color-15{
+	background-color: #28ABE3;
+}
+.color-16{
+	background-color: #588C73;
+}
+.color-17{
+	background-color: #F2E394;
+}
+.color-18{
+	background-color: #F2AE72;
+}
+.color-19{
+	background-color: #D96459;
+}
+.color-20{
+	background-color: #8C4646;
+}
+.color-21{
+	background-color: #D0C91F;
+}
+.color-22{
+	background-color: #85C4B9;
+}
+.color-23{
+	background-color: #008BBA;
+}
+.color-24{
+	background-color: #DF514C;
+}
+.color-25{
+	background-color: #DC403B;
+}

@@ -1,0 +1,311 @@
+/*
+NOTA: SE EDITO LOS PADDINGS DEL CONTAINER-FLUID DEL BOOTSTRAP.MIN
+
+Para poder usar el animate.css debemos poner en el elemento que queremos animar
+la class animated seguida de la class que queremos usar.
+Ej. class="animate lightSpeedIn"
+https://daneden.github.io/animate.css/
+*/
+
+
+/*TEXT-COLOR*/
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+h2{
+	color: white;
+	font-size: 50px;
+}
+
+h3{
+	color: white;
+	font-size: 2em;
+
+}
+h3:hover{
+	color: orange;
+}
+h4{
+	font-size: 2em;
+}
+.text-gris{
+	color: #443E44;
+}
+.text-white{
+	color: #fff;
+}
+.text-orange{
+	color: orange;
+}
+
+/*CONTAINER*/
+}
+a:hover{
+	text-decoration: none;
+	color: none;
+}
+
+ul{
+	margin: 0%;
+	padding: 0%;
+}
+
+li{
+	list-style: none;
+}
+
+/*BANNER INICIO*/
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+}
+.main-text{
+    position: absolute;
+    top: 30%;
+    width: 96%;
+    padding-left:15%;
+    padding-right: 10%; 
+    color: #FFF;
+}
+
+/*NAVBAR*/
+
+.navbar-default{
+	margin-bottom: 0%;
+	border-radius: 0%;
+	background-color: #27AD60;
+	border: none;
+	padding-top: 1%;
+	padding-left:2%;
+	padding-right:2%;
+	padding-bottom: 1%;  
+}
+#logo{
+	width: 75%;
+	margin-top: -10%;
+}
+
+/* HOVER PARA EL LOGO
+.navbar-default a.navbar-brand:hover {
+  background-color: #35E280;
+}*/
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  font-size: 1.3em;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: green;
+  border-radius: 30px;
+  background-color: #35E280;
+  font-size: 1.3em;
+}
+
+
+/*HR*/
+hr{
+	width: 10%;
+	border-color: black;
+}
+.hr-white{
+	border-color: #FFF;
+	height: 5px;
+}
+
+
+/*BACKGROUND-COLOR*/
+.bg-azulf{
+	background-color: #2C3E50;
+}
+.bg-verde{
+	background-color: #27AD60;
+}
+
+.bg-verdef{
+	background-color: #1D844A;
+}
+.bg-white{
+	background-color: white;
+}
+
+
+/*WHAT WE DO*/
+
+/*.bg-icon{
+	background-image: url("../img/icon-bg.png"); 
+}*/
+.bg-azulv{
+	background-color: #2C3E50;
+	height: 200px;
+	width: 200px;
+	margin: auto;
+	padding-top: 3%;
+	transition: width 2s, height 2s, transform 2s;
+	
+}
+.bg-azulv:hover{
+	background-color: orange;
+	transform: rotate(-45deg);
+	margin-bottom: 20%;
+}
+.hover-iconos:hover{
+	background-color: #2A7257;
+}
+.btn-gray{
+	background-color: #443E44;
+	color: white;
+	font-size: 1.5em;
+	border: none;
+	padding: 2%;
+}
+.btn-gray:hover{
+	background-color: #707070;
+	color: orange;
+}
+
+
+/* PROGRESS-BAR */
+.progress-bar{
+	background-color: orange;
+}
+
+
+/*TEAM*/
+.team-li-social{
+	display: inline-block;
+	list-style: none;
+	padding-right: 3%;
+}
+
+i{
+	color: white;
+}
+i:hover{
+	color: orange;
+}
+
+.img-team{
+	background-image: url("../img/team/1.jpg");
+	width: 300px;
+}
+.img-team:hover{
+	background-image: url("../img/team/backside/1.jpg");
+}
+
+
+/*BEST PRICE*/
+.div-mar-0>p{
+	margin:0%;
+	padding: 0%;
+	padding-top: 5%;
+	height: 40px;
+}
+.borde{
+	border: 1px solid #27AD60;
+	padding-right: 0%;
+	padding-left:0%;
+}
+.borde:hover{
+	margin-top: -20%;
+	border:solid 1px orange;
+}
+.bg-cafe{
+	background-color: #8F5F38;
+}
+.price-1{
+	margin:0%;
+	padding: 0%;
+	padding-top: 5%;
+	height: 60px;
+}
+.price-2{
+	margin:0%;
+	padding: 0%;
+	padding-top: 5%;
+	height: 150px;
+}
+.precio-g{
+	font-size: 4em;
+}
+
+.price-title{
+	height: 50%;
+	font-size: 2em;
+}
+
+
+/*CLIENTES*/
+.p-clients{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	font-style: italic;
+}
+
+
+/*FORMULARIO*/
+.form-group{
+	width: 50%;
+}
+.margin-auto{
+	
+}
+
+/*SOCIAL NETWORKS*/
+
+.back-net{
+	background-image: url("../img/img-divider-img.jpg");
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+}
+.team-li-social-big{
+	display: inline-block;
+	list-style: none;
+	padding-right: 5%;
+	font-size: 10em;
+	margin: auto;
+}
+
+/*FOOTER*/
+
+
+
+
+/*SHORTCUTS*/
+.pt-2{
+	padding-top: 2%;
+}
+.pb-2{
+	padding-bottom: 2%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-5{
+	padding-bottom:5%; 
+}
+.pt-15{
+	padding-top: 15%;
+}
+.pb-15{
+	padding-bottom: 15%;
+}
+.mr-10{
+	margin-right: 10px;
+}
+.pr-5{
+	padding-right: 5%;
+}
+.pl-23{
+	padding-left: 23%;
+}
+.pl-26{
+	padding-left: 26%;
+}
